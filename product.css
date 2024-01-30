@@ -1,0 +1,34 @@
+.product_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+}
+
+.image_gallery img {
+  width: 100px;
+  border: solid 1px black;
+  margin: 2px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.main_image {
+  width: 400px;
+  padding: 20px;
+}
+
+.product_container button {
+  margin: 20px 0;
+}
+
+.product_container h3 {
+  font-size: 15px;
+  color: gray;
+}
+
+@media screen and (max-width: 500px) {
+  .product_container {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+}
